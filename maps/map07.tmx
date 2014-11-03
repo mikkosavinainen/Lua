@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="70" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="160" height="160"/>
+ </tileset>
+ <layer name="Walls" width="70" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztl8kKgDAMROtBWupR//9btYfiwkRabBYwDwIVD5k8omIKISQvWM4d94L5w45xzJgZ8z6Rdh1f7iEvmThzMV+yXK+5icS5Zun1wpWbc19Q5tFevkJ5RV44d0fCC5W/Z67WfRnRqzDKC/dzL/HepWbo9SKJ5rffvWBavKxHLQqVlPqW2hq8aGElR8G9YNzL2dvqP6CVHAX3gqleJgNlJUfNsgMRzgi+
+  </data>
+ </layer>
+ <layer name="End" width="70" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztzkERAAAMAiBv/UMvhj4gAQkAAAAA0HbtwLgHFwgAAw==
+  </data>
+ </layer>
+ <layer name="Lava" width="70" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKwCAMBMBAXmDB/3/VqwetLVmXtO6A4KGGbaBVzWTmAtSoSUZU6eaIvvxFWT8iMoX4Nk/3pR5Gsr5Zi/rvszDyIvdDFkbmU/tytxZ9fmJB5vYH9R08bENNH+QevZeI7JPt/pshg4jENcmvC4Q=
+  </data>
+ </layer>
+ <layer name="Antigravity" width="70" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt1jERAAAIAzFs4N8oCpg5IFHQ4YdG8E1OD4CGNgEAYBcfngt0vEcBGlAAZQ==
+  </data>
+ </layer>
+ <layer name="Gravity" width="70" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJADAMA0EXXiL7L5oJ3AUcxN0E3whUxWu9HQAfS9/H2Q4AAAiX/icBmF0+agAm
+  </data>
+ </layer>
+ <layer name="WallsJump" width="70" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAL4NFMgAAQ==
+  </data>
+ </layer>
+</map>
