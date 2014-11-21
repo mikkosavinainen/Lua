@@ -1,7 +1,6 @@
-Lua
-===
 
-LÖVE practice, summer course @ school
+LÖVE assignment, summer course @ school, first time experience with Lua.
+
 
 if(motivation > freetime){
 	refactor();
