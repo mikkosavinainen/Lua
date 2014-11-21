@@ -11,30 +11,31 @@ function love.load()
 	screenHeight = love.graphics.getHeight()
 	
 	-- Lataa kuvat
-	pelaajakuva = love.graphics.newImage("player.png")
-	titlekuva = love.graphics.newImage("titlemenu.png")
-	gameoverkuva = love.graphics.newImage("gameover.png")
-	ohjekuva = love.graphics.newImage("1kenttaohjeet.png")
-	background = love.graphics.newImage("background.png")
+	pelaajakuva = love.graphics.newImage("images/player.png")
+	titlekuva = love.graphics.newImage("images/titlemenu.png")
+	gameoverkuva = love.graphics.newImage("images/gameover.png")
+	ohjekuva = love.graphics.newImage("images/1kenttaohjeet.png")
+	background = love.graphics.newImage("images/background.png")
 	
 	-- Mappien muuttujat
 	mapnumber = 1
 	maxmaps = 9
 	
+	-- debug info
 	seppo = "seppo"
 	
 	deaths = 0
 	total_time = 0
 	
 	--äänet
-	jumpsound = love.audio.newSource("Jump8.wav", "static")
+	jumpsound = love.audio.newSource("sounds/Jump8.wav", "static")
 	doublejumpsound = love.audio.newSource("sounds/DoubleJump.wav", "static")
 	deathsound = love.audio.newSource("sounds/Hit_Hurt70.wav", "static")
 	endlevelsound = love.audio.newSource("sounds/Pickup_Coin17.wav", "static")
 	gravitysound = love.audio.newSource("sounds/Powerup14.wav", "static")
 	
 	--musa
-	bgm = love.audio.newSource("bgm.mp3", "stream")
+	bgm = love.audio.newSource("sounds/bgm.mp3", "stream")
 	love.audio.play(bgm)
 	
 	-- Lataa pelaajan ja kameran
@@ -97,7 +98,7 @@ function title_menu_drawplayer()
     p.runSpeed = 200
 	p.turbo = 300
 	 
-    gravity = 1800
+    gravity = 50
 	hasJumped = false
 	delay = 120
 	
@@ -154,10 +155,11 @@ function love.update(deltaTime)
 	end
 end
 
-function game_step()
-	print("Askellus")
-	--tarkista erikoistapaukset
-end
+-- Debug info @ console
+-- function game_step()
+	-- print("Askellus")
+	-- --tarkista erikoistapaukset
+-- end
 
 function draw_player()
 	-- Pyöristää alas x ja y ja laittaa lokaalit muuttujat.
