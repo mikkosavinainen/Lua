@@ -1,5 +1,7 @@
-LÖVE assignment
-Summer course @ school
+LÖVE assignment.
+
+Summer course @ school.
+
 First time experience with Lua.
 
 
