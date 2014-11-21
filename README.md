@@ -1,5 +1,6 @@
-
-LÖVE assignment, summer course @ school, first time experience with Lua.
+LÖVE assignment
+Summer course @ school
+First time experience with Lua.
 
 
 if(motivation > freetime){
