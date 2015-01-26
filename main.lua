@@ -134,13 +134,13 @@ function love.update(deltaTime)
 			camera:setPosition(math.floor(p.x - screenWidth / 2), math.floor(p.y - screenHeight / 2))
 	
 			--gamesteppiä, jota käytetään joskus sitten.
-			game_time = game_time + deltaTime
-			if game_time >= game_step_time then
-				game_time = game_time - game_step_time
-				if game_running then
-					game_step()
-				end
-			end
+			--game_time = game_time + deltaTime
+			--if game_time >= game_step_time then
+				--game_time = game_time - game_step_time
+				--if game_running then
+				--	game_step()
+			--	end
+			--end
 			
 			-- Kutsuu funktioita, joita update tarkistaa
 			end_level()
